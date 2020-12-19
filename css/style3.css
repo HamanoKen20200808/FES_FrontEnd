@@ -1,0 +1,37 @@
+@media screen and (max-width: 1000px) {
+    p {
+        color: red;
+        font-size: 100px;
+    }
+}
+/* 501~1000pxでは、文字は赤色で100pxになる*/
+
+@media screen and (max-width: 500px) {
+    p {
+        color: blue;
+        font-size: 50px;
+    }    
+}
+/* 301~500pxでは、文字は青色で50pxになる*/
+
+@media screen and (max-width: 300px) {
+    p {
+        color: black;
+        font-size: 30px;
+    }
+}
+
+
+
+.parent {
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;/* 追記 */
+    
+}
+
+.parent > div {
+    background-color: lightgreen;
+    width: 200px;/* 追記 */
+}

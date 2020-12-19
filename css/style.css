@@ -1,0 +1,761 @@
+
+/* HEROセクション */
+.HERO {
+    position: relative;
+    background-color: #3C6BB9;/* 背景を青にする */
+    width: 100vw;/*背景の幅を指定*/
+    
+}
+
+.HERO img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.HERO_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.HERO_title h1 {
+    text-align: center;
+    font-size: 66px;/*HEROクラスのhiタグのフォントを66px*/
+    color: #ffffff;/*HEROクラスのhiタグの文字色を白*/ 
+}
+.HERO_title p {
+    text-align: center;
+    font-size: 32px;/*HEROクラスのhiタグのフォントを66px*/
+    color: #ffffff;/*HEROクラスのhiタグの文字色を白*/ 
+}
+
+@media screen and (max-width: 767px) {
+    .HERO {
+        position: relative;
+        background-color: #3C6BB9;/* 背景を青にする */
+        width: 100vw;/*背景の幅を指定*/
+        
+    }
+    
+    .HERO img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .HERO_title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .HERO_title h1 {
+        text-align: center;
+        font-size: 32px;/*HEROクラスのhiタグのフォントを66px*/
+        color: #ffffff;/*HEROクラスのhiタグの文字色を白*/ 
+    }
+
+    .HERO_title p {
+        text-align: center;
+        font-size: 16px;/*HEROクラスのhiタグのフォントを66px*/
+        color: #ffffff;/*HEROクラスのhiタグの文字色を白*/ 
+    }
+}
+
+
+/* Aboutセクション */
+.About {
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;/* 背景を白にする */
+    
+    
+    
+}
+
+.About h2 {
+    width: 100%;
+    font-size: 40px;/*HEROクラスのpタグのフォントを32px*/
+    color: #000000;/*HEROクラスのpタグの文字色を白*/
+    position: relative;
+    text-align: center;
+    padding: 3%;
+    margin: 0%;
+}
+
+
+.About_img {
+    padding: 3% 10%;
+}
+
+.About_img img {
+    border-radius: 50%;
+}
+
+.About_info_namae p{
+    font-size: 32px;
+    margin: 0;
+}
+.About_info_name p{
+    font-size: 24px;
+    margin: 0;
+}
+.About_info ul{
+    font-size: 20px;
+}
+
+.About_info {
+    padding: 3% 10%;
+    text-align: left;
+}
+
+.About_container {
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 767px) {
+    .About {
+        position: relative;
+        background-color: #ffffff;/* 背景を白にする */
+        width: 100vw;/*背景の幅を指定*/
+        align-items: baseline;
+    }
+
+    .About h2 {
+        width: 100%;
+        font-size: 32px;/*HEROクラスのpタグのフォントを32px*/
+        color: #000000;/*HEROクラスのpタグの文字色を白*/
+        position: relative;
+        text-align: center;
+        padding: 3%;
+        margin: 0%;
+    }
+    .About_img {
+        padding: 3% 10%;
+        width: 200px;
+        
+    }
+    
+    .About_info_namae p{
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+    }
+    .About_info_name p{
+        font-size: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .About_info ul{
+        font-size: 12px;
+    }
+    .About_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+/* Featuresセクション */
+.Features {
+    position: relative;
+    background-color: #3C6BB9;/* 背景を青にする */
+    width: 100vw;/*背景の幅を指定*/
+    text-align: center;
+}
+.Features h2 {
+    width: 100%;
+    font-size: 40px;/*HEROクラスのpタグのフォントを32px*/
+    color: #ffffff;/*HEROクラスのpタグの文字色を白*/
+    position: relative;
+    text-align: center;
+    padding: 3%;
+    margin: 0%;
+}
+
+.infra_frame {
+    background-color: #ffffff;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+}
+.infra_frame img {
+    width: 150px;
+    height: 150px; 
+}
+.leader_frame {
+    background-color: #ffffff;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+}
+.leader_frame img {
+    width: 150px;
+    height: 150px; 
+}
+.RPA_frame {
+    background-color: #ffffff;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+}
+.RPA_frame img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.Features_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Features_container img{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10%;
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-left: 20%;   
+}
+
+.Features_container p {
+    padding-top: 10%;
+}
+@media screen and (max-width: 767px) {
+    .Features h2 {
+        font-size: 32px;/*HEROクラスのpタグのフォントを32px*/
+    }
+    .Features_container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .infra {
+        margin: 1em 0px;/* 上下に1em・左右に0px */
+    }
+    
+    .infra img {
+        width: 60px;
+        height: 60px;
+        margin-top: 30%;
+        margin-left: 33%; 
+    }
+    .infra p {
+        font-size: 20px;
+    }
+    .infra ul {
+        font-size: 12px;    
+    }
+    .infra_frame {
+        background-color: #ffffff;
+        width: 150px;
+        height: 150px;
+    }
+
+    .leader {
+        margin: 1em 0px;/* 上下に1em・左右に0px */
+    }
+    .leader img {
+        width: 60px;
+        height: 60px;
+        margin-top: 30%;
+        margin-left: 33%; 
+    }
+    .leader p {
+        font-size: 20px;
+    }
+    .leader ul {
+        font-size: 12px;    
+    }
+    .leader_frame {
+        background-color: #ffffff;
+        width: 150px;
+        height: 150px;
+    }
+
+    .RPA {
+        margin: 1em 0px;/* 上下に1em・左右に0px */
+    }
+    .RPA img {
+        width: 60px;
+        height: 60px;
+        margin-top: 30%;
+        margin-left: 33%; 
+    }
+    .RPA p {
+        font-size: 20px;
+    }
+    .RPA ul {
+        font-size: 12px; 
+    }
+    .RPA_frame {
+        background-color: #ffffff;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Skills/パラメーターセクション */
+.skills h2 {
+    position: relative;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding: 3%;
+    margin: 0%;
+}
+.skills {
+    position: relative;/* 追記 */
+    width: 100vw;/* 追記 */
+}
+
+@media screen and (max-width: 767px) {
+    .skills h2 {
+        font-size: 32px;
+    }
+}
+
+
+/* メーター(HTML) */
+.border_graph {
+    padding: 0 3%;/* 追記 */
+    max-width: 70%;
+    font-size: 24px;/* 追記 */
+    width: 40%;
+    margin: 0 5%;
+}
+
+.graph_frame{
+    border-radius: 20px;
+    background-color: #EBEBEB;/* 追記 */
+    
+}
+.graph_inner{
+    position: relative;
+    width: 30%;
+    height: 40px;
+    background-color: #FF8848;/* 追記 */
+    border-radius: 20px;
+    
+}
+.graph_inner p{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;/* 追記 */
+    color: #FFFFFF;/* 追記 */
+    
+}
+@media screen and (max-width: 767px) {
+    .border_graph {
+        width: 100%;
+        max-width: 85%;
+    }
+    .border_graph p {
+        font-size: 16px;
+    }
+    .graph_inner p {
+        font-size: 24px;
+    }
+}
+
+/* メーター(ギャグセンス) */
+.graph_inner_gyagu{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    background-color: #008000;/* 追記 */
+    border-radius: 20px;
+}
+.graph_inner_gyagu p{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;/* 追記 */
+    color: #FFFFFF;/* 追記 */
+}
+
+/* メーター(CSS) */
+.graph_inner_CSS{
+    position: relative;
+    width: 30%;
+    height: 40px;
+    background-color: #6699FF;/* 追記 */
+    border-radius: 20px;
+}
+.graph_inner_CSS p{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;/* 追記 */
+    color: #FFFFFF;/* 追記 */
+}
+
+/* メーター(アルコール耐性) */
+.graph_inner_alc{
+    position: relative;
+    width: 5%;
+    height: 40px;
+    background-color: #FF99CC;/* 追記 */
+    border-radius: 20px;
+}
+.graph_inner_alc p{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;/* 追記 */
+    color: #FFFFFF;/* 追記 */
+}
+
+/* メーター(LiveScript) */
+.graph_inner_JS{
+    position: relative;
+    width: 10%;
+    height: 40px;
+    background-color: #FFCC33;/* 追記 */
+    border-radius: 20px;
+}
+.graph_inner_JS p{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;/* 追記 */
+    color: #FFFFFF;/* 追記 */
+}
+
+/* メーター(ブラックジョーク) */
+.graph_inner_BJ{
+    position: relative;
+    width: 90%;
+    height: 40px;
+    background-color: #FF0000;/* 追記 */
+    border-radius: 20px;
+}
+.graph_inner_BJ p{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;/* 追記 */
+    color: #FFFFFF;/* 追記 */
+}
+
+/* メーター(Linux) */
+.graph_inner_Linux{
+    position: relative;
+    width: 70%;
+    height: 40px;
+    background-color: #800080;/* 追記 */
+    border-radius: 20px;
+}
+.graph_inner_Linux p{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;/* 追記 */
+    color: #FFFFFF;/* 追記 */
+}
+
+/* メーター(ExcelVBA) */
+.graph_inner_ExcelVBA{
+    position: relative;
+    width: 80%;
+    height: 40px;
+    background-color: #808000;/* 追記 */
+    border-radius: 20px;
+}
+.graph_inner_ExcelVBA p{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;/* 追記 */
+    color: #FFFFFF;/* 追記 */
+}
+
+.skills_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 3%;
+
+}
+@media screen and (max-width: 767px) {
+    .skills_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
+/* Careerセクション */
+.Career {
+    background-color: #3C6BB9;
+}
+.Career_title h2{
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3%;
+    margin: 0;
+}
+@media screen and (max-width: 767px) {
+    .Career_title h2{
+        font-size: 32px;
+        padding: 3%;
+        margin: 0;
+    }
+}
+/* 共通部分と少年時代 */
+/* 高校時代 */
+/* 新卒時代 */
+/* 現在の活動 */
+.Boyhood_info_box {
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 160px;
+}
+.Boyhood_info {
+    font-size: 12px;
+    margin: 0px 10px 10px 10px;
+}
+.Boyhood_info p{
+    font-size: 16px;
+    width: 110px;
+    height: 21px;
+}
+
+/* display flex */
+.Era_container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+@media screen and (max-width: 767px) {
+    .Era_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Boyhood {
+        padding: 3%;
+    }
+}
+
+
+/* Creativeセクション */
+.Creative_title h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 3% 3% 0% 3%;
+    margin: 0;
+}
+.Creative_info p{
+    font-size: 16px;
+    text-align: center;
+    margin: 1%;
+}
+.Creative_Container_img_left {
+    width: 50%;
+    padding: 0% 3% 3% 13%;
+}
+.Creative_Container_img_right {
+    width: 50%;
+    padding: 0% 13% 3% 3%;
+}
+@media screen and (max-width: 767px) {
+    .Creative_title h2{
+        font-size: 32px;
+    }
+    .Creative_info p{
+        font-size: 13px;
+    }
+    .Creative_Container_img_left {
+        width: 315px;
+        height: 180px;
+        padding: 0% 3% 3% 3%;
+    }
+    .Creative_Container_img_right {
+        width: 315px;
+        height: 180px;
+        padding: 0% 3% 3% 3%;
+    }
+}
+
+/* display flex */
+.Creative_Container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 3%;
+}
+@media screen and (max-width: 767px) {
+
+    .Creative_Container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* モーダル */
+.box_hidden {
+    display: none;
+}
+.modal_background {
+    background-color:rgba(24, 23, 23, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    
+    }
+.modal_1 {
+    background-color: #ffffff;
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+}
+.modal_1 h3 {
+    text-align: center;
+    font-size: 40px;
+}
+.modal_1 p {
+    text-align: center;
+    font-size: 32px;
+}
+
+/* headerセクション */
+.header_sec {
+    background-color: #3C6BB9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header_nav {
+    width: 53vw;
+}
+.header_h2 {
+    padding-left: 1%;
+}
+.header_h2 h2{
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.header_navigate {
+    padding: 1% 1% 1% 1%;
+    text-align: left;
+    margin: 2% 0% 2% 0%;
+}
+.header_navigate ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 2%;
+}
+.header_navigate ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.header_hamburger {
+    display: none !important;
+}
+#header_menu {
+    display: none !important;
+}
+
+@media screen and (max-width: 960px) {
+    .header_h2 h2{
+        font-size: 20px;
+        width: 50%;
+        height: 50%; 
+    }
+    .header_navigate {
+        display: none !important;
+    }
+    .header_hamburger {
+        display: block !important;
+    }
+    .header_hamburger img {
+        width: 50px;
+        height: 50px;
+
+        position: relative;
+        top: 30%;
+        right: 70%;
+    }
+
+
+    /* アニメーション用 */
+    #header_menu {
+        display: block !important;
+    }
+    .header_menu_navigate ul {
+        padding: 0;
+        margin: 0;
+    }
+    .header_menu_navigate ul li {
+        display: list-item;  /* 縦に並べる */
+        list-style-type: none;
+        text-transform: uppercase;
+        padding: 0.5em;
+        background-color: #FFFFFF;
+    }
+
+    .active {
+        display: none;
+        position: absolute;
+        transition: all 0.3s ease 0s;
+        transform: translateY(300px);
+    }
+}
+
+
+
+
